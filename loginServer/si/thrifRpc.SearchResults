@@ -1,0 +1,2 @@
+---- LoginServerConnectResponse Matches (1 in 1 files) ----
+SL_RPC_Seda_Handler.java (d:\proj\java\workspace\springboot-netty-mybatis\src\main\java\com\gyc\thrift\socketserver\rpc\minicore)://				BusinessManager.Instance().LoginServerConnectResponse(hello_notify);
