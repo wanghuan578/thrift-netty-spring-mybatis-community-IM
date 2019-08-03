@@ -23,7 +23,14 @@ public class App
 			e.printStackTrace();
 		}
  
-        Channel channel = client.getChannel();
+//        Channel channel = client.getChannel();
+//        while(true) {
+//        try {
+//            Thread.sleep(1000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+    //}
         //消息体
 //        RpcRequest request = new RpcRequest();
 //        request.setId(UUID.randomUUID().toString());

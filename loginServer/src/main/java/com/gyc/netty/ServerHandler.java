@@ -12,6 +12,7 @@ import com.gyc.thrift.socketserver.rpc.minicore.SL_RPC_ProtocolFactory;
 import com.gyc.thrift.socketserver.rpc.minicore.SL_RPC_Seda_EventType;
 import com.gyc.thrift.socketserver.rpc.minicore.SL_RPC_Thrift_BinaryProtocol;
 
+import com.gyc.thrift.socketserver.rpc.thrift.ClientPasswordLoginReq;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;
@@ -42,28 +43,28 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
         notify.setError_code((short)0);
         notify.setError_text("OK");
   
-        SL_RPC_ProtocolFactory<HelloNotify> factory = new SL_RPC_ProtocolFactory<HelloNotify>(notify, 1024, SL_RPC_CommHead.Size());
+        //SL_RPC_ProtocolFactory<HelloNotify> factory = new SL_RPC_ProtocolFactory<HelloNotify>(notify, 1024, SL_RPC_CommHead.Size());
 
-        factory.GetBuilder().GetHead().SetType(SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_HELLO_NOTIFY);
-        factory.GetBuilder().GetHead().SetSource(123);
-        factory.GetBuilder().GetHead().SetAttach1(123);
-
-        factory.GetBody().write(factory.GetProtocol());
-        factory.GetHead().Serialize();
-
+//        factory.GetBuilder().GetHead().SetType(SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_HELLO_NOTIFY);
+//        factory.GetBuilder().GetHead().SetSource(123);
+//        factory.GetBuilder().GetHead().SetAttach1(123);
+//
+//        factory.GetBody().write(factory.GetProtocol());
+//        factory.GetHead().Serialize();
+//
+//
+//        SL_RPC_ByteBuffer event = factory.GetBuilder().GetBuffer();
+//        TProtocol protocol = new SL_RPC_Thrift_BinaryProtocol(event, SL_RPC_CommHead.Size(), (event.Length() - SL_RPC_CommHead.Size()));
+//        HelloNotify hello_notify = new HelloNotify();
         
-        SL_RPC_ByteBuffer event = factory.GetBuilder().GetBuffer();
-        TProtocol protocol = new SL_RPC_Thrift_BinaryProtocol(event, SL_RPC_CommHead.Size(), (event.Length() - SL_RPC_CommHead.Size()));
-        HelloNotify hello_notify = new HelloNotify();
-        
-        try
-        {
-            hello_notify.read(protocol);
-        } 
-        catch (TException e) 
-        {
-            e.printStackTrace();
-        }
+//        try
+//        {
+//            hello_notify.read(protocol);
+//        }
+//        catch (TException e)
+//        {
+//            e.printStackTrace();
+//        }
         
 //        HelloNotify notify = new HelloNotify();
 //        notify.setServer_random(1000000);
@@ -95,8 +96,8 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
 //            e.printStackTrace();
 //        }
         
-//        ctx.write(out);
-//        ctx.flush();
+        ctx.write(notify);
+        ctx.flush();
         
         System.out.println("client connect");
     }
@@ -108,7 +109,7 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
     
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg){
-        ByteBuf byteBuf= (ByteBuf) msg;
+        ClientPasswordLoginReq entity = (ClientPasswordLoginReq) msg;
 //        int len = byteBuf.readInt();
 //        ByteBuf content = byteBuf.readBytes(len);
 //
@@ -120,9 +121,9 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
 //        if (users != null) {
 //            System.out.println(JSON.toJSONString(users, true));
 //        }
-        
-        ctx.write(msg);
-        ctx.flush();
+        System.out.println(JSON.toJSONString(entity, true));
+//        ctx.write(msg);
+//        ctx.flush();
         
 
     }

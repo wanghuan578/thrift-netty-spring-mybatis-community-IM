@@ -12,6 +12,7 @@ import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
 import io.netty.util.internal.StringUtil;
+import org.apache.thrift.TBase;
 
 public class ThriftBinaryProtocolEncoder extends MessageToByteEncoder<Object> {
 
@@ -21,34 +22,33 @@ public class ThriftBinaryProtocolEncoder extends MessageToByteEncoder<Object> {
 		
 		//SL_RPC_ProtocolFactory<HelloNotify> factory = null;
 		
-		if (msg instanceof HelloNotify) {
-			
-			SL_RPC_ProtocolFactory<HelloNotify> factory = new SL_RPC_ProtocolFactory<HelloNotify>((HelloNotify) msg, 1024, SL_RPC_CommHead.Size());
+		//if (msg instanceof HelloNotify) {
 
-			factory.GetBuilder().GetHead().SetType(SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_HELLO_NOTIFY);
-			factory.GetBuilder().GetHead().SetSource(123);
-			factory.GetBuilder().GetHead().SetAttach1(123);
-			
-			factory.GetBody().write(factory.GetProtocol());
-//			factory.GetBuilder().Serialize();
-//			out.writeBytes(factory.GetBuilder().GetBuffer().GetBytes());
-			out.writeBytes(factory.GetBuilder().GetBuffer().GetBytes(), 0, factory.GetBuilder().Serialize());
-		}
-		else if (msg instanceof ClientLoginRes) {
-			
-			SL_RPC_ProtocolFactory<ClientLoginRes> factory = new SL_RPC_ProtocolFactory<ClientLoginRes>((ClientLoginRes) msg, 1024, SL_RPC_CommHead.Size());
+			SL_RPC_CommHead head = new SL_RPC_CommHead();
+			head.SetType(SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_HELLO_NOTIFY);
+			head.SetSource(123);
+			head.SetAttach1(123);
+			SL_RPC_ProtocolFactory<TBase> factory = new SL_RPC_ProtocolFactory<TBase>((TBase)msg, head, 1024, SL_RPC_CommHead.Size());
 
-			factory.GetBuilder().GetHead().SetType(SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_LOGIN_RESP);
-			factory.GetBuilder().GetHead().SetSource(123);
-			factory.GetBuilder().GetHead().SetAttach1(123);
+			int len = factory.serialize();
+			byte [] buf = factory.getByteBuf().GetBytes();
+			out.writeBytes(factory.getByteBuf().GetBytes(), 0, len);
+		//}
+		//else if (msg instanceof ClientLoginRes) {
 			
-			factory.GetBody().write(factory.GetProtocol());
-			//factory.GetBuilder().Serialize();
-			//byte[] buf = factory.GetBuilder().GetBuffer().GetBytes();
-			//out.writeBytes(buf);
-			out.writeBytes(factory.GetBuilder().GetBuffer().GetBytes(), 0, factory.GetBuilder().Serialize());
+//			SL_RPC_ProtocolFactory<ClientLoginRes> factory = new SL_RPC_ProtocolFactory<ClientLoginRes>((ClientLoginRes) msg, 1024, SL_RPC_CommHead.Size());
+//
+//			factory.GetBuilder().GetHead().SetType(SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_LOGIN_RESP);
+//			factory.GetBuilder().GetHead().SetSource(123);
+//			factory.GetBuilder().GetHead().SetAttach1(123);
+//
+//			factory.GetBody().write(factory.GetProtocol());
+//			//factory.GetBuilder().Serialize();
+//			//byte[] buf = factory.GetBuilder().GetBuffer().GetBytes();
+//			//out.writeBytes(buf);
+//			out.writeBytes(factory.GetBuilder().GetBuffer().GetBytes(), 0, factory.GetBuilder().Serialize());
 			
-		}
+		//}
 		
 
 		
