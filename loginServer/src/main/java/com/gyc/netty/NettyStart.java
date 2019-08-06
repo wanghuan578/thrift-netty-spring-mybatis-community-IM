@@ -39,6 +39,7 @@ public class NettyStart {
                     protected void initChannel(SocketChannel socketChannel) throws Exception {
                         
                         socketChannel.pipeline().addLast("decode", new ThriftBinaryProtocolDecoder());
+                        socketChannel.pipeline().addLast("encode", new ThriftBinaryProtocolEncoder());
                         socketChannel.pipeline().addLast(serverHandler);
                     }
                 });

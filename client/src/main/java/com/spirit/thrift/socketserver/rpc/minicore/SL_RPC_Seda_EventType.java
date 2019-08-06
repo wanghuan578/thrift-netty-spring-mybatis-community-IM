@@ -14,7 +14,7 @@ public class SL_RPC_Seda_EventType {
 
 	public static final int MT_RPC_SEDA_EVENT_LOGINSERVER_CONNECTTED 				= 1;
 	public static final int MT_RPC_SEDA_EVENT_ROOMGATE_CONNECTTED 					= 2;
-	public static final int MT_RPC_SEDA_EVENT_HELLO_NOTIFY    						= 102; 
+	public static final int MT_RPC_SEDA_EVENT_HELLO_NOTIFY    						= 10;
 	public static final int MT_RPC_SEDA_EVENT_KEEPLIVE_REQ							= 11;
 	public static final int MT_RPC_SEDA_EVENT_KEEPLIVE_RESP							= 12;
 	public static final int MT_RPC_SEDA_EVENT_KICKUSER_NOTIFY						= 13;
@@ -26,8 +26,8 @@ public class SL_RPC_Seda_EventType {
 	public static final int MT_RPC_SEDA_EVENT_SITEMICUSERLIST_RESP					= 32;
 	public static final int MT_RPC_SEDA_EVENT_SITEMIC_UP_NOTIFY						= 33;
 	public static final int MT_RPC_SEDA_EVENT_SITEMIC_DOWN_NOTIFY					= 34;
-	public static final int MT_RPC_SEDA_EVENT_LOGIN_REQ    							= 502;
-	public static final int MT_RPC_SEDA_EVENT_LOGIN_RESP    						= 503;
+	public static final int MT_RPC_SEDA_EVENT_LOGIN_REQ    							= 100;
+	public static final int MT_RPC_SEDA_EVENT_LOGIN_RESP    						= 102;
 	public static final int MT_RPC_SEDA_EVENT_TEMP_LOGIN_REQ    					= 106;
 	public static final int MT_RPC_SEDA_EVENT_GET_BALANCE_NOTIFY    				= 112;
 	public static final int MT_RPC_SEDA_EVENT_UPDATE_RESOURCE_REQ    				= 113;

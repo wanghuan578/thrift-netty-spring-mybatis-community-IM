@@ -1,18 +1,19 @@
 package com.gyc.thrift.socketserver.rpc.minicore;
 
 
+import org.apache.thrift.TBase;
 
 public class SL_RPC_UpdateServerHandler {
 
 	private SL_RPC_ByteBuffer m_Message = null;
 	
-	private SL_RPC_ProtocolFactory<Object> m_ProtocolFactory = null;
+	private SL_RPC_ProtocolFactory<TBase> m_ProtocolFactory = null;
 	
 	public SL_RPC_UpdateServerHandler(SL_RPC_ByteBuffer buff){
 	
 		m_Message = buff;
 		
-		m_ProtocolFactory = new SL_RPC_ProtocolFactory<Object>(m_Message);
+		m_ProtocolFactory = new SL_RPC_ProtocolFactory<TBase>(m_Message);
 		
 		Analysis();
 	}

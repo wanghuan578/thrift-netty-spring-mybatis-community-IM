@@ -10,6 +10,8 @@ Boxin Technology Corporated Corporation. All Rights Reserved.
 
 package com.gyc.thrift.socketserver.rpc.minicore;
 
+import org.apache.thrift.TBase;
+
 import java.io.IOException;
 
 
@@ -18,7 +20,7 @@ public class SL_RPC_MainStageHandler {
 
 	private SL_RPC_ByteBuffer m_Event = null;
 	
-	private SL_RPC_ProtocolFactory<Object> m_ProtocolFactory = null;
+	private SL_RPC_ProtocolFactory<TBase> m_ProtocolFactory = null;
 	
 	public SL_RPC_MainStageHandler(SL_RPC_ByteBuffer event){
 		
@@ -55,7 +57,7 @@ public class SL_RPC_MainStageHandler {
 			m_Event = event;
 		}
 		
-		m_ProtocolFactory = new SL_RPC_ProtocolFactory<Object>(m_Event);
+		m_ProtocolFactory = new SL_RPC_ProtocolFactory<TBase>(m_Event);
 	}
 	
 	public int Initialize(){
@@ -75,7 +77,7 @@ public class SL_RPC_MainStageHandler {
 		return m_Event;
 	}
 	
-	private SL_RPC_CommHead GetEventHead(){
+	public SL_RPC_CommHead GetEventHead(){
 		
 		return m_ProtocolFactory.GetParser().GetHead();
 	}
