@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="05f2c8ef-2270-4e53-b7a8-a31f39cb9ca4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="e3323500-ed61-472f-bb43-896e82e6bb8a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_56.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_56.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_29_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_29_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_12_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/client.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/client/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/client/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/netty/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/netty/ClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/netty/NettyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/message/SRM_LoginServerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/message/SRM_LoginServerRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientLoginRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientLoginRes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientLoginResUserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientLoginResUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientLoginResUserInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientPasswordLoginReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientPasswordLoginReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientPasswordLoginReqChecksum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientPasswordLoginReqChecksum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientPasswordLoginReqChecksum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientTicketLoginReqChecksum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientTicketLoginReqChecksum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/CommonNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/CommonNull.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/CommonRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/CommonRes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ConnectReq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ErrorCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/HelloNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/HelloNotify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/HelloReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/HelloReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/KeepAliveReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/KeepAliveReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/KeepAliveRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/KeepAliveRes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/LogoutReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/LogoutReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/LogoutRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/LogoutRes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/MessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/MessageType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ServiceAddr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ServiceAddr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ServiceInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ServiceInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/netty/NettyStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/netty/NettyStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/thrift/socketserver/rpc/minicore/SL_RPC_MessageBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/thrift/socketserver/rpc/minicore/SL_RPC_MessageBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loginServer/src/main/java/com/spirit/entity/UserInfoDmo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loginServer/src/main/java/com/spirit/entity/UserInfoDmo.java" afterDir="false" />
-=======
-    <list default="true" id="0473f4b8-df43-4339-8e13-b361a1c455cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/client/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/client/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/netty/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/netty/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/netty/NettyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/minicore/SL_RPC_Seda_EventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/minicore/SL_RPC_Seda_EventType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/netty/NettyStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/netty/NettyStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/netty/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/netty/ServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/netty/ThriftBinaryProtocolDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/netty/ThriftBinaryProtocolDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/netty/ThriftBinaryProtocolEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/netty/ThriftBinaryProtocolEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/thrift/socketserver/rpc/message/SRM_LoginServerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/thrift/socketserver/rpc/message/SRM_LoginServerRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/thrift/socketserver/rpc/minicore/SL_RPC_MainStageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/thrift/socketserver/rpc/minicore/SL_RPC_MainStageHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/thrift/socketserver/rpc/minicore/SL_RPC_MessageBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/thrift/socketserver/rpc/minicore/SL_RPC_ProtocolFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/thrift/socketserver/rpc/minicore/SL_RPC_ProtocolFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/thrift/socketserver/rpc/minicore/SL_RPC_UpdateServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/thrift/socketserver/rpc/minicore/SL_RPC_UpdateServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/thrift/socketserver/rpc/thrift/ClientPasswordLoginReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loginServer/src/main/java/com/gyc/thrift/socketserver/rpc/thrift/ClientPasswordLoginReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loginServer/src/main/java/com/spirit/entity/UserInfoDmo.java" beforeDir="false" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/SessionTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/SessionTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UpdateResourceReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UpdateResourceReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UpdateResourceRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UpdateResourceRes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UserRegisterReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UserRegisterReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UserRegisterRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UserRegisterRes.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,193 +53,100 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientLoginRes.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/SessionTicket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1972">
-              <caret line="707" selection-start-line="707" selection-end-line="707" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/client/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
+            <state relative-caret-position="187">
+              <caret line="1439" selection-start-line="1439" selection-end-line="1439" />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/message/SRM_LoginServerRequest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UpdateResourceReq.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="34" column="97" selection-start-line="34" selection-start-column="97" selection-end-line="34" selection-end-column="97" />
+            <state relative-caret-position="187">
+              <caret line="461" selection-start-line="461" selection-end-line="461" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UpdateResourceRes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="942" lean-forward="true" selection-start-line="942" selection-end-line="942" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UserRegisterReq.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="1462" column="46" selection-start-line="1462" selection-start-column="8" selection-end-line="1462" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UserRegisterRes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="533" column="20" selection-start-line="533" selection-start-column="20" selection-end-line="533" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/client/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/NettyClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="80" selection-start-line="80" selection-end-line="82" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#986#1010#0" expanded="true" />
+                <element signature="e#2821#2822#0" expanded="true" />
+                <element signature="e#2851#2852#0" expanded="true" />
               </folding>
-=======
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolEncoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="38" column="34" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="34" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientPasswordLoginReq.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="35" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/NettyClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="63" column="80" lean-forward="true" selection-start-line="63" selection-start-column="80" selection-end-line="63" selection-end-column="80" />
-              <folding>
-                <element signature="e#1534#2061#0" expanded="true" />
-                <element signature="e#2060#2061#0" expanded="true" />
-                <element signature="e#2193#2628#0" expanded="true" />
-                <element signature="e#2627#2628#0" expanded="true" />
-              </folding>
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/CommonNull.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="243" selection-start-line="243" selection-end-line="243" />
-=======
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolDecoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/CommonRes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="432" selection-start-line="432" selection-end-line="432" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolEncoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="26" column="57" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="57" />
-              <folding>
-                <element signature="e#1102#1126#0" expanded="true" />
-              </folding>
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ErrorCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-=======
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/handler/codec/ByteToMessageDecoder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="372" selection-start-line="372" selection-end-line="372" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/HelloNotify.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="827" selection-start-line="827" selection-end-line="827" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/minicore/SL_RPC_MainStageHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1685">
-              <caret line="99" column="71" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="71" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolDecoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-931">
-              <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/minicore/SL_RPC_MessageParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolEncoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/minicore/SL_RPC_InProtocolBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/minicore/SL_RPC_Seda_EventType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
+            <state relative-caret-position="128">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>ClientPasswordLoginReq</find>
-<<<<<<< HEAD
-      <find>Hello World!</find>
-      <find>login</find>
-      <find>writeAndFlush</find>
-      <find>ServiceInfo</find>
-=======
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -247,113 +154,38 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/netty/ClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/netty/NettyClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/client/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolEncoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientLoginResUserInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientPasswordLoginReqChecksum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientTicketLoginReqChecksum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/LogoutReq.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/LogoutRes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UpdateResourceReq.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UpdateResourceRes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UserRegisterReq.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UserRegisterRes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientPasswordLoginReq.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ErrorCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/MessageType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ServiceInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientLoginRes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientLoginResUserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientPasswordLoginReq.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientPasswordLoginReqChecksum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientTicketLoginReqChecksum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/CommonNull.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/CommonRes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/HelloNotify.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/HelloReq.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/KeepAliveReq.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/KeepAliveRes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/LogoutReq.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/LogoutRes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ServiceAddr.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ServiceInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/SessionTicket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolDecoder.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/message/SRM_LoginServerRequest.java" />
-=======
+        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UpdateResourceReq.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UpdateResourceRes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UserRegisterReq.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UserRegisterRes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spirit/netty/NettyClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spirit/client/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/minicore/SL_RPC_Seda_EventType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spirit/netty/ClientHandler.java" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-      </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-<<<<<<< HEAD
-        <option name="mavenHome" value="F:/Softwares/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="F:\Softwares\apache-maven-3.6.0\conf\settings.xml" />
-=======
-        <option name="mavenHome" value="E:/Softwares/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="E:\Softwares\apache-maven-3.6.1\conf\settings.xml" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/client.iml" />
-=======
-        <option value="$PROJECT_DIR$/client.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_56.xml" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_29_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_12_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-=======
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_29_Final.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_10_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-<<<<<<< HEAD
     <option name="x" value="170" />
     <option name="y" value="91" />
     <option name="width" value="1026" />
     <option name="height" value="546" />
-=======
-    <option name="x" value="323" />
-    <option name="y" value="64" />
-    <option name="width" value="1400" />
-    <option name="height" value="992" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -361,10 +193,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
       <pane id="PackagesPane" />
-=======
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -375,30 +205,13 @@
             <path>
               <item name="client" type="b2602c69:ProjectViewProjectNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
               <item name="src" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-            </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
             </path>
             <path>
               <item name="client" type="b2602c69:ProjectViewProjectNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
             </path>
             <path>
               <item name="client" type="b2602c69:ProjectViewProjectNode" />
@@ -406,10 +219,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="spirit" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
             </path>
             <path>
               <item name="client" type="b2602c69:ProjectViewProjectNode" />
@@ -418,10 +227,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="spirit" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
             </path>
             <path>
               <item name="client" type="b2602c69:ProjectViewProjectNode" />
@@ -430,7 +235,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="spirit" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spirit" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -441,47 +254,20 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="spirit" type="462c0819:PsiDirectoryNode" />
               <item name="rpc" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="client" type="462c0819:PsiDirectoryNode" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-            </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spirit" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="thrift" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-<<<<<<< HEAD
-=======
-      <pane id="PackagesPane" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-<<<<<<< HEAD
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../loginServer" />
-=======
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -495,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spirit.client.App" />
       <module name="client" />
@@ -509,9 +295,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="client" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.All in client" />
       </list>
     </recent_temporary>
   </component>
@@ -520,42 +315,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< HEAD
-      <changelist id="05f2c8ef-2270-4e53-b7a8-a31f39cb9ca4" name="Default Changelist" comment="" />
-      <created>1565060473679</created>
+      <changelist id="e3323500-ed61-472f-bb43-896e82e6bb8a" name="Default Changelist" comment="" />
+      <created>1565084782466</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565060473679</updated>
-      <workItem from="1565060477298" duration="17092000" />
-=======
-      <changelist id="0473f4b8-df43-4339-8e13-b361a1c455cd" name="Default Changelist" comment="" />
-      <created>1564787435256</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1564787435256</updated>
-      <workItem from="1564787437733" duration="7058000" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
+      <updated>1565084782466</updated>
+      <workItem from="1565084783968" duration="814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="17092000" />
+    <option name="totallyTimeSpent" value="814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-=======
-    <option name="totallyTimeSpent" value="7058000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -565,32 +343,14 @@
       <window_info anchor="bottom" id="Messages" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
-=======
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.3295711" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295711" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39954853" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Palette&#9;" />
-<<<<<<< HEAD
-=======
-      <window_info anchor="right" id="Database" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -599,87 +359,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-<<<<<<< HEAD
-          <url>file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolEncoder.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-=======
-          <url>file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ClientHandler.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ClientHandler.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ClientHandler.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolEncoder.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="14" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/handler/codec/ByteToMessageDecoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="347" selection-start-line="347" selection-end-line="347" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/NettyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/minicore/SL_RPC_Seda_EventType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/minicore/SL_RPC_CommHead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/minicore/SL_RPC_MessageBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/minicore/SL_RPC_ByteBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -687,314 +367,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientPasswordLoginReqChecksum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientLoginResUserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientTicketLoginReqChecksum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/LogoutReq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/LogoutRes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UpdateResourceReq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-=======
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/util/concurrent/DefaultPromise.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="404" column="24" selection-start-line="404" selection-start-column="24" selection-end-line="404" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="163" column="17" selection-start-line="163" selection-start-column="17" selection-end-line="163" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/client/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/minicore/SL_RPC_MessageParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/minicore/SL_RPC_InProtocolBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/minicore/SL_RPC_MainStageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1685">
-          <caret line="99" column="71" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/minicore/SL_RPC_Seda_EventType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/handler/codec/ByteToMessageDecoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="372" selection-start-line="372" selection-end-line="372" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/NettyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="63" column="80" lean-forward="true" selection-start-line="63" selection-start-column="80" selection-end-line="63" selection-end-column="80" />
-          <folding>
-            <element signature="e#1534#2061#0" expanded="true" />
-            <element signature="e#2060#2061#0" expanded="true" />
-            <element signature="e#2193#2628#0" expanded="true" />
-            <element signature="e#2627#2628#0" expanded="true" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UpdateResourceRes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UserRegisterReq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UserRegisterRes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="139" column="24" lean-forward="true" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="38" column="34" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="26" column="57" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="57" />
-          <folding>
-            <element signature="e#1102#1126#0" expanded="true" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/HelloReq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="357" selection-start-line="357" selection-end-line="357" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/KeepAliveReq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="535" selection-start-line="535" selection-end-line="535" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/KeepAliveRes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="729" column="26" lean-forward="true" selection-start-line="729" selection-start-column="26" selection-end-line="729" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/MessageType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ServiceAddr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="449" column="5" selection-start-line="449" selection-start-column="5" selection-end-line="449" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ServiceInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="655" column="28" selection-start-line="655" selection-start-column="28" selection-end-line="655" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/SessionTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="1427" selection-start-line="1427" selection-end-line="1427" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/client/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-931">
-          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/CommonNull.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="243" selection-start-line="243" selection-end-line="243" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/CommonRes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="432" selection-start-line="432" selection-end-line="432" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ErrorCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/HelloNotify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="827" selection-start-line="827" selection-end-line="827" />
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientLoginRes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="707" selection-start-line="707" selection-end-line="707" />
+        <state relative-caret-position="187">
+          <caret line="804" selection-start-line="804" selection-end-line="804" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientLoginResUserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="859" selection-start-line="859" selection-end-line="859" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientPasswordLoginReq.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="187">
+          <caret line="750" selection-start-line="750" selection-end-line="750" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/message/SRM_LoginServerRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientPasswordLoginReqChecksum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="34" column="97" selection-start-line="34" selection-start-column="97" selection-end-line="34" selection-end-column="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#986#1010#0" expanded="true" />
-          </folding>
-=======
+        <state relative-caret-position="187">
+          <caret line="640" selection-start-line="640" selection-end-line="640" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ClientTicketLoginReqChecksum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="640" selection-start-line="640" selection-end-line="640" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/CommonNull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="252" selection-start-line="252" selection-end-line="252" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/CommonRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="456" selection-start-line="456" selection-end-line="456" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/HelloNotify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="833" selection-start-line="833" selection-end-line="833" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/HelloReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="364" selection-start-line="364" selection-end-line="364" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/KeepAliveReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="539" selection-start-line="539" selection-end-line="539" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/KeepAliveRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="732" selection-start-line="732" selection-end-line="732" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/LogoutReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="456" selection-start-line="456" selection-end-line="456" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/LogoutRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="447" selection-start-line="447" selection-end-line="447" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/MessageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/ServiceAddr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="456" selection-start-line="456" selection-end-line="456" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/SessionTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="1439" selection-start-line="1439" selection-end-line="1439" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UpdateResourceReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="461" selection-start-line="461" selection-end-line="461" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UpdateResourceRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="942" lean-forward="true" selection-start-line="942" selection-end-line="942" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UserRegisterReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="1462" column="46" selection-start-line="1462" selection-start-column="8" selection-end-line="1462" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/thrift/socketserver/rpc/thrift/UserRegisterRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="533" column="20" selection-start-line="533" selection-start-column="20" selection-end-line="533" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
+        <state relative-caret-position="76">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/ThriftBinaryProtocolEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/netty/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="80" selection-start-line="80" selection-end-line="82" selection-end-column="5" />
+          <folding>
+            <element signature="e#2821#2822#0" expanded="true" />
+            <element signature="e#2851#2852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spirit/client/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>

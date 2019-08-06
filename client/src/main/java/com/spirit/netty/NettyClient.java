@@ -72,20 +72,15 @@ public class NettyClient  {
                 }
             }
         });
-<<<<<<< HEAD
 
-        channel = future.channel();
-
-        //channel.closeFuture().sync();
-=======
  
         future.channel().closeFuture().sync();
->>>>>>> b04d8147d21b5d867db8d2b98c41c716ab94c255
+
     }
  
-//    public Channel getChannel() {
-//        return channel;
-//    }
+    public Channel getChannel() {
+        return channel;
+    }
 
 
 }
