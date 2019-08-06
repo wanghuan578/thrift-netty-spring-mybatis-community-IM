@@ -11,13 +11,21 @@ import io.netty.channel.SimpleChannelInboundHandler;
 
 
 @Sharable
-public class ClientHandler extends SimpleChannelInboundHandler {
+public class ClientHandler extends SimpleChannelInboundHandler{
     
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
 
         System.out.println("client connect");
+		//HelloNotify notify = (HelloNotify) msg;
+		//System.out.println(JSON.toJSONString(notify, true));
+		ClientPasswordLoginReq req = new ClientPasswordLoginReq();
+		req.setCheck_sum("112211221121122122trfgft4rfrtfghtrgy");
+		req.setClient_mac("112233445566");
+		req.setClient_version("1.0.0.0");
+		ctx.write(req);
+		ctx.flush();
     }
 
     @Override

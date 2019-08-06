@@ -21,7 +21,8 @@ public class ThriftBinaryProtocolEncoder extends MessageToByteEncoder<Object> {
 		// TODO Auto-generated method stub
 		
 		//SL_RPC_ProtocolFactory<HelloNotify> factory = null;
-		
+		//out.writeBytes("9988776655443332222".getBytes());
+
 		if (msg instanceof ClientPasswordLoginReq) {
 			
 			SL_RPC_ProtocolFactory<ClientPasswordLoginReq> factory = new SL_RPC_ProtocolFactory<ClientPasswordLoginReq>((ClientPasswordLoginReq) msg, 1024, SL_RPC_CommHead.Size());
@@ -34,6 +35,7 @@ public class ThriftBinaryProtocolEncoder extends MessageToByteEncoder<Object> {
 			//factory.GetBuilder().Serialize();
 			//out.writeBytes(factory.GetBuilder().GetBuffer().GetBytes(), 0, factory.GetBuilder().Serialize());
 			int len = factory.GetBuilder().Serialize();
+			SL_RPC_CommHead head = factory.GetBuilder().GetHead();
 			out.writeBytes(factory.GetBuilder().GetBuffer().GetBytes(), 0, len);
 		}
 		else if (msg instanceof ClientLoginRes) {

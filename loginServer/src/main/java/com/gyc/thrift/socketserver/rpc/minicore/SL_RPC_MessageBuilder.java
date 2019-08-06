@@ -93,7 +93,7 @@ public class SL_RPC_MessageBuilder<TMessageBody>{
 		return m_outProtocol;
 	}
 	
-	public boolean Serialize(){
+	public int Serialize(){
 	
 		int end = m_outProtocol.Length();
 		
@@ -113,6 +113,6 @@ public class SL_RPC_MessageBuilder<TMessageBody>{
 		
 		m_outProtocol.WriteBufferBegin(end);
 		
-		return true;
+		return end;
 	}
 }

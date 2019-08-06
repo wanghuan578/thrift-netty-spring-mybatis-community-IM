@@ -42,7 +42,7 @@ public class NettyStart {
                         socketChannel.pipeline().addLast(serverHandler);
                     }
                 });
-        ChannelFuture future = b.bind(8080).sync();
+        ChannelFuture future = b.bind(9000).sync();
         if (future.isSuccess()) {
             System.out.println("启动 Netty 成功");
         }

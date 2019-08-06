@@ -30,8 +30,8 @@ public class NettyClient  {
 //    @Resource
 //    private ClientHandler clientHandler;
 
-    private String host = "127.0.0.1";
-    private int port = 8080;
+    private String host = "192.168.219.133";
+    private int port = 9000;
     private Channel channel;
  
     //连接服务端的端口号地址和端口号
@@ -49,7 +49,7 @@ public class NettyClient  {
             .handler(new ChannelInitializer<SocketChannel>() { // 绑定连接初始化器
                 @Override
                 public void initChannel(SocketChannel ch) throws Exception {
-                    System.out.println("正在连接中...");
+                    //System.out.println("正在连接中...");
                     ChannelPipeline pipeline = ch.pipeline();
                     pipeline.addLast("decode", new ThriftBinaryProtocolDecoder());
                     pipeline.addLast("encode", new ThriftBinaryProtocolEncoder());
@@ -63,8 +63,8 @@ public class NettyClient  {
  
             public void operationComplete(ChannelFuture arg0) throws Exception {
                 if (future.isSuccess()) {
-                    System.out.println("连接服务器成功");
- 
+                    System.out.println("连接成功11");
+                    //channel.writeAndFlush(Unpooled.copiedBuffer("hello world".getBytes()));
                 } else {
                     System.out.println("连接服务器失败");
                     future.cause().printStackTrace();
@@ -72,8 +72,10 @@ public class NettyClient  {
                 }
             }
         });
- 
-        this.channel = future.channel();
+
+        channel = future.channel();
+
+        //channel.closeFuture().sync();
     }
  
     public Channel getChannel() {

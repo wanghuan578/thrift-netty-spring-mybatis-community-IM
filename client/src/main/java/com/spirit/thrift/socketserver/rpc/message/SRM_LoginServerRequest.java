@@ -18,7 +18,7 @@ import com.spirit.thrift.socketserver.rpc.minicore.SL_RPC_ProtocolFactory;
 import com.spirit.thrift.socketserver.rpc.minicore.SL_RPC_Seda_EventType;
 import com.spirit.thrift.socketserver.rpc.minicore.SL_RPC_SocketControlHandler;
 import com.spirit.thrift.socketserver.rpc.thrift.ClientPasswordLoginReq;
-import com.spirit.thrift.socketserver.rpc.thrift.ClientPasswordLoginReqChecksum;
+
 
 
 
@@ -29,10 +29,10 @@ public class SRM_LoginServerRequest {
 	
 	public SRM_LoginServerRequest(String user_name, String passward) {
 		
-		SL_RPC_ProtocolFactory<ClientPasswordLoginReqChecksum> factory = new SL_RPC_ProtocolFactory<ClientPasswordLoginReqChecksum>(new ClientPasswordLoginReqChecksum(), 1024, 0);
+		SL_RPC_ProtocolFactory<ClientPasswordLoginReq> factory = new SL_RPC_ProtocolFactory<ClientPasswordLoginReq>(new ClientPasswordLoginReq(), 1024, 0);
 		
-		factory.GetBuilder().GetBody().logname = user_name;
-		factory.GetBuilder().GetBody().password = passward;
+		factory.GetBuilder().GetBody().setUser_id(100000);
+		factory.GetBuilder().GetBody().setCheck_sum("11221122222222222222222222222222222222222");
 //		factory.GetBuilder().GetBody().client_random = BusinessManager.Instance().GetClientRandom();
 //		factory.GetBuilder().GetBody().server_random = BusinessManager.Instance().GetLocalUserInfo().GetLoginInfo().GetServerRandom();
 

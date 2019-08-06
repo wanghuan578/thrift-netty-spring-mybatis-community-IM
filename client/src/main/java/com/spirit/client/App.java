@@ -2,6 +2,7 @@ package com.spirit.client;
 
 import com.spirit.netty.NettyClient;
 
+import com.spirit.thrift.socketserver.rpc.thrift.ClientPasswordLoginReq;
 import io.netty.channel.Channel;
 
 /**
@@ -12,9 +13,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
-        
-        NettyClient client = new NettyClient("127.0.0.1", 8080);
+        NettyClient client = new NettyClient("192.168.219.133", 9000);
+        //NettyClient client = new NettyClient("localhost", 9000);
         //启动client服务
         try {
 			client.start();
@@ -24,11 +24,11 @@ public class App
 		}
  
         Channel channel = client.getChannel();
-        //消息体
-//        RpcRequest request = new RpcRequest();
-//        request.setId(UUID.randomUUID().toString());
-//        request.setData("client.message");
-//        //channel对象可保存在map中，供其它地方发送消息
+//        //消息体
+//        ClientPasswordLoginReq request = new ClientPasswordLoginReq();
+//
+//        request.setCheck_sum("1122112211221122112211221122");
+//        request.setUser_id(100110011);
 //        channel.writeAndFlush(request);
 
     }

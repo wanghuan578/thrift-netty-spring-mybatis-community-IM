@@ -13,7 +13,7 @@ import com.spirit.thrift.socketserver.rpc.minicore.SL_RPC_Seda_EventType;
 import com.spirit.thrift.socketserver.rpc.minicore.SL_RPC_Thrift_BinaryProtocol;
 import com.spirit.thrift.socketserver.rpc.thrift.ClientLoginRes;
 import com.spirit.thrift.socketserver.rpc.thrift.ClientPasswordLoginReq;
-import com.spirit.thrift.socketserver.rpc.thrift.ClientPasswordLoginReqChecksum;
+
 import com.spirit.thrift.socketserver.rpc.thrift.HelloNotify;
 
 import io.netty.buffer.ByteBuf;

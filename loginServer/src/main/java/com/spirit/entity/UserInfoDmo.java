@@ -1,4 +1,4 @@
-package com.gyc.entity;
+package com.spirit.entity;
 
 import java.util.Date;
 
