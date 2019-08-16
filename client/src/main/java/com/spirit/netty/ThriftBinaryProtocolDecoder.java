@@ -25,8 +25,8 @@ public class ThriftBinaryProtocolDecoder extends ByteToMessageDecoder {
     @Override
     protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) throws Exception {
         // TODO Auto-generated method stub
-    	int index = in.readableBytes();
-        while (index > 4) {
+    	//int index = in.readableBytes();
+        while (in.readableBytes() > 4) {
             
         	in.markReaderIndex();
         	
@@ -46,7 +46,7 @@ public class ThriftBinaryProtocolDecoder extends ByteToMessageDecoder {
             
             switch (header.GetType()) {
             
-            case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_HELLO_NOTIFY: 
+            case SL_RPC_Seda_EventType.MT_COMMON_HELLO_NOTIFY:
             {
             	TProtocol protocol = new SL_RPC_Thrift_BinaryProtocol(event, SL_RPC_CommHead.Size(), (event.Length() - SL_RPC_CommHead.Size()));
             	HelloNotify hello_notify = new HelloNotify();
@@ -67,7 +67,7 @@ public class ThriftBinaryProtocolDecoder extends ByteToMessageDecoder {
             }
             	break;
             	
-            case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_LOGIN_RESP: 
+            case SL_RPC_Seda_EventType.MT_CLIENT_LOGIN_RES:
             {
             	TProtocol protocol = new SL_RPC_Thrift_BinaryProtocol(event, SL_RPC_CommHead.Size(), (event.Length() - SL_RPC_CommHead.Size()));
             	ClientLoginRes loginResp = new ClientLoginRes();
@@ -92,7 +92,7 @@ public class ThriftBinaryProtocolDecoder extends ByteToMessageDecoder {
             	break;
             }
 
-            index = in.readableBytes();
+            //index = in.readableBytes();
             
 //            byte b = buf.
 //            //int len = b.length;

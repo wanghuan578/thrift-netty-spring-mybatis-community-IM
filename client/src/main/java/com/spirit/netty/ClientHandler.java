@@ -17,15 +17,15 @@ public class ClientHandler extends SimpleChannelInboundHandler{
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
 		super.channelActive(ctx);
-        System.out.println("client connect");
-		//HelloNotify notify = (HelloNotify) msg;
-		//System.out.println(JSON.toJSONString(notify, true));
-		ClientPasswordLoginReq req = new ClientPasswordLoginReq();
-		req.setCheck_sum("112211221121122122trfgft4rfrtfghtrgy");
-		req.setClient_mac("112233445566");
-		req.setClient_version("1.0.0.0");
-		ctx.write(req);
-		ctx.flush();
+//        System.out.println("client connect");
+//		//HelloNotify notify = (HelloNotify) msg;
+//		//System.out.println(JSON.toJSONString(notify, true));
+//		ClientPasswordLoginReq req = new ClientPasswordLoginReq();
+//		req.setCheck_sum("112211221121122122trfgft4rfrtfghtrgy");
+//		req.setClient_mac("112233445566");
+//		req.setClient_version("1.0.0.0");
+//		ctx.write(req);
+//		ctx.flush();
     }
 
     @Override
@@ -51,10 +51,10 @@ public class ClientHandler extends SimpleChannelInboundHandler{
     		ctx.write(req);
     		ctx.flush();
     	}
-    	//else if (msg instanceof ClientLoginRes) {
-    		//ClientLoginRes loginResp = (ClientLoginRes) msg;
-    		//System.out.println("loginResp: " + JSON.toJSONString(loginResp, true));
-    	//}
+    	else if (msg instanceof ClientLoginRes) {
+    		ClientLoginRes loginResp = (ClientLoginRes) msg;
+    		System.out.println("loginResp: " + JSON.toJSONString(loginResp, true));
+    	}
     }
 
 	@Override

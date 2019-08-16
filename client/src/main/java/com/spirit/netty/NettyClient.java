@@ -30,8 +30,8 @@ public class NettyClient  {
 //    @Resource
 //    private ClientHandler clientHandler;
 
-    private String host = "192.168.219.133";
-    private int port = 9000;
+    private String host = "127.0.0.1";
+    private int port = 9999;
     private Channel channel;
  
     //连接服务端的端口号地址和端口号

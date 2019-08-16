@@ -4,11 +4,10 @@ package com.spirit.netty;
 import com.spirit.thrift.socketserver.rpc.minicore.SL_RPC_CommHead;
 import com.spirit.thrift.socketserver.rpc.minicore.SL_RPC_ProtocolFactory;
 import com.spirit.thrift.socketserver.rpc.minicore.SL_RPC_Seda_EventType;
+
+
 import com.spirit.thrift.socketserver.rpc.thrift.ClientLoginRes;
 import com.spirit.thrift.socketserver.rpc.thrift.ClientPasswordLoginReq;
-import com.spirit.thrift.socketserver.rpc.thrift.CommonRes;
-import com.spirit.thrift.socketserver.rpc.thrift.HelloNotify;
-
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
@@ -27,7 +26,7 @@ public class ThriftBinaryProtocolEncoder extends MessageToByteEncoder<Object> {
 			
 			SL_RPC_ProtocolFactory<ClientPasswordLoginReq> factory = new SL_RPC_ProtocolFactory<ClientPasswordLoginReq>((ClientPasswordLoginReq) msg, 1024, SL_RPC_CommHead.Size());
 
-			factory.GetBuilder().GetHead().SetType(SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_LOGIN_REQ);
+			factory.GetBuilder().GetHead().SetType(SL_RPC_Seda_EventType.MT_CLIENT_PASSWORD_LOGIN_REQ);
 			factory.GetBuilder().GetHead().SetSource(123);
 			factory.GetBuilder().GetHead().SetAttach1(123);
 			
@@ -42,7 +41,7 @@ public class ThriftBinaryProtocolEncoder extends MessageToByteEncoder<Object> {
 			
 			SL_RPC_ProtocolFactory<ClientLoginRes> factory = new SL_RPC_ProtocolFactory<ClientLoginRes>((ClientLoginRes) msg, 1024, SL_RPC_CommHead.Size());
 
-			factory.GetBuilder().GetHead().SetType(SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_LOGIN_RESP);
+			factory.GetBuilder().GetHead().SetType(SL_RPC_Seda_EventType.MT_CLIENT_LOGIN_RES);
 			factory.GetBuilder().GetHead().SetSource(123);
 			factory.GetBuilder().GetHead().SetAttach1(123);
 			
