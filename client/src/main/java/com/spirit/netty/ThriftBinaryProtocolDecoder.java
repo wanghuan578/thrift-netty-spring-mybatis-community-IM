@@ -44,7 +44,8 @@ public class ThriftBinaryProtocolDecoder extends ByteToMessageDecoder {
             
             switch (header.GetType()) {
             
-            case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_HELLO_NOTIFY:
+
+            case RpcEventType.MT_COMMON_HELLO_NOTIFY:
             {
             	TProtocol protocol = new SL_RPC_Thrift_BinaryProtocol(event, SL_RPC_CommHead.Size(), (event.Length() - SL_RPC_CommHead.Size()));
             	HelloNotify hello_notify = new HelloNotify();
@@ -65,7 +66,7 @@ public class ThriftBinaryProtocolDecoder extends ByteToMessageDecoder {
             }
             	break;
             	
-            case SL_RPC_Seda_EventType.MT_CLIENT_LOGIN_RES:
+            case RpcEventType.MT_CLIENT_LOGIN_RES:
             {
             	TProtocol protocol = new SL_RPC_Thrift_BinaryProtocol(event, SL_RPC_CommHead.Size(), (event.Length() - SL_RPC_CommHead.Size()));
             	ClientLoginRes loginResp = new ClientLoginRes();

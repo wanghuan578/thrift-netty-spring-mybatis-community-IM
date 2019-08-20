@@ -53,6 +53,7 @@ public class ClientHandler extends SimpleChannelInboundHandler{
     		ClientLoginRes loginResp = (ClientLoginRes) msg;
     		System.out.println("loginResp: " + JSON.toJSONString(loginResp, true));
 
+
 			ServiceRegisterReq req = new ServiceRegisterReq();
 			ServiceAddr addr =  new ServiceAddr();
 			addr.ip = "127.0.0.1";
@@ -75,6 +76,7 @@ public class ClientHandler extends SimpleChannelInboundHandler{
 			ctx.write(req);
 			ctx.flush();
 		}
+
 
     }
 

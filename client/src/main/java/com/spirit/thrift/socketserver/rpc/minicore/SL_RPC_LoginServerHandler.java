@@ -43,11 +43,11 @@ public class SL_RPC_LoginServerHandler {
 		
 		switch(GetEventHead().GetType()){
 		
-		case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_HELLO_NOTIFY: {
+		case 1: {
 				
 			SL_RPC_SocketControlHandler.Instance().SetState(SL_RPC_State.SL_RPC_SOCKETSTATE_LOGINSERVER_CONNECTED);
 
-			GetEventHead().SetType(SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_LOGINSERVER_CONNECTTED);
+			GetEventHead().SetType(1);
 			
 			SL_RPC_Seda_Event event = new SL_RPC_Seda_Event(GetEvent(), GetEventHead());
 

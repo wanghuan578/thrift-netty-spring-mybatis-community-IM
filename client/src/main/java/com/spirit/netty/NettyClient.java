@@ -30,7 +30,9 @@ public class NettyClient  {
 //    @Resource
 //    private ClientHandler clientHandler;
 
+
     private String host = "localhost";
+
     private int port = 9999;
     private Channel channel;
  

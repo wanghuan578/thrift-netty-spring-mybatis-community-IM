@@ -38,7 +38,7 @@ public class SL_RPC_UpdateServerHandler {
 		
 		switch(GetEventHead().GetType()){
 		
-		case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_HELLO_NOTIFY: {
+		case 1: {
 			
 			//BusinessManager.Instance().CheckUpdateVersion(LoginServer_UpdateType.UPDATE_IN_RUNNING);
 		}
