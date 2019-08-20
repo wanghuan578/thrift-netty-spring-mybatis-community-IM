@@ -13,8 +13,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        NettyClient client = new NettyClient("192.168.219.133", 9000);
-        //NettyClient client = new NettyClient("localhost", 9000);
+        //NettyClient client = new NettyClient("192.168.219.133", 9000);
+        NettyClient client = new NettyClient("192.168.131.42", 9999);
         //启动client服务
         try {
 			client.start();

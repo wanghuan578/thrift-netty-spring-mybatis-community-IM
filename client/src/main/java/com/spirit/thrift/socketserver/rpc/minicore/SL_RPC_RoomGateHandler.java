@@ -49,17 +49,17 @@ public class SL_RPC_RoomGateHandler {
 		}
 			break;
 			
-		case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_ROOMGATE_LOGIN_RESP:{
-			
-			SL_RPC_SocketControlHandler.Instance().SetState(SL_RPC_State.SL_RPC_SOCKETSTATE_ROOMGATESERVER_LOGIN_SUCCESSED);
-			
-			SL_RPC_SocketControlHandler.Instance().GetRoomGateHandler().KeepAlive_Start();
-
-			SL_RPC_Seda_Event event = new SL_RPC_Seda_Event(GetEvent(), GetEventHead());
-			
-			SL_RPC_Seda_Stage.Instance().PushEvent(event);
-		}
-			break;
+//		case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_ROOMGATE_LOGIN_RESP:{
+//
+//			SL_RPC_SocketControlHandler.Instance().SetState(SL_RPC_State.SL_RPC_SOCKETSTATE_ROOMGATESERVER_LOGIN_SUCCESSED);
+//
+//			SL_RPC_SocketControlHandler.Instance().GetRoomGateHandler().KeepAlive_Start();
+//
+//			SL_RPC_Seda_Event event = new SL_RPC_Seda_Event(GetEvent(), GetEventHead());
+//
+//			SL_RPC_Seda_Stage.Instance().PushEvent(event);
+//		}
+//			break;
 			
 		
 		default:{

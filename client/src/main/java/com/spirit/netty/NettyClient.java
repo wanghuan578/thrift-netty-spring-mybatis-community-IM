@@ -30,8 +30,8 @@ public class NettyClient  {
 //    @Resource
 //    private ClientHandler clientHandler;
 
-    private String host = "192.168.219.133";
-    private int port = 9000;
+    private String host = "localhost";
+    private int port = 9999;
     private Channel channel;
  
     //连接服务端的端口号地址和端口号
@@ -40,7 +40,7 @@ public class NettyClient  {
         this.port = port;
     }
  
-    @PostConstruct
+
     public void start() throws Exception {
         final EventLoopGroup group = new NioEventLoopGroup();
  
@@ -63,7 +63,7 @@ public class NettyClient  {
  
             public void operationComplete(ChannelFuture arg0) throws Exception {
                 if (future.isSuccess()) {
-                    System.out.println("连接成功11");
+                    System.out.println("连接成功");
                     //channel.writeAndFlush(Unpooled.copiedBuffer("hello world".getBytes()));
                 } else {
                     System.out.println("连接服务器失败");

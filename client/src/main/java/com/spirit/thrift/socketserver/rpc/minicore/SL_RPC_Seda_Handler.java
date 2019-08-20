@@ -83,7 +83,7 @@ public class SL_RPC_Seda_Handler {
 		}
 			break;
 		
-		case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_LOGIN_RESP:{
+		case SL_RPC_Seda_EventType.MT_CLIENT_LOGIN_RES:{
 		    
 			System.out.println("SL_RPC_Seda_StageThread - MT_RPC_SEDA_EVENT_LOGIN_RESP");
 			
@@ -119,9 +119,9 @@ public class SL_RPC_Seda_Handler {
 		}
 			break;
 			
-		case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_ROOMGATE_LOGIN_RESP:{
-	
-			System.out.println("SL_RPC_Seda_StageThread - MT_RPC_SEDA_EVENT_ROOMGATE_RESP");
+//		case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_ROOMGATE_LOGIN_RESP:{
+//
+//			System.out.println("SL_RPC_Seda_StageThread - MT_RPC_SEDA_EVENT_ROOMGATE_RESP");
 			
 //			TProtocol protocol = new SL_RPC_Thrift_BinaryProtocol(GetEvent(), SL_RPC_CommHead.Size(), (GetEvent().Length() - SL_RPC_CommHead.Size()));
 //	
@@ -137,15 +137,15 @@ public class SL_RPC_Seda_Handler {
 //			}
 //			
 //			BusinessManager.Instance().RoomgateServerResponse(roomgete_resp);
-		}
-			break;
+//		}
+//			break;
 			
-		case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_ENTERROOM_RESP:{
-			
-			System.out.println("SL_RPC_Seda_StageThread - MT_RPC_SEDA_EVENT_ENTERROOM_RESP");
-			
-		}
-		    break;
+//		case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_ENTERROOM_RESP:{
+//
+//			System.out.println("SL_RPC_Seda_StageThread - MT_RPC_SEDA_EVENT_ENTERROOM_RESP");
+//
+//		}
+//		    break;
 //			TProtocol protocol = new SL_RPC_Thrift_BinaryProtocol(GetEvent(), SL_RPC_CommHead.Size(), (GetEvent().Length() - SL_RPC_CommHead.Size()));
 //	
 //			EnterRoomRes roomenter_resp = new EnterRoomRes();

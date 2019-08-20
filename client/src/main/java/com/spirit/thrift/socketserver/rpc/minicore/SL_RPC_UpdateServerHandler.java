@@ -44,17 +44,17 @@ public class SL_RPC_UpdateServerHandler {
 		}
 			break;
 		
-		case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_UPDATE_RESOURCE_RESP:{
-			
-			SL_RPC_SocketControlHandler.Instance().Destory(SL_RPC_ServerType.SL_RPC_SERVER_TYPE_UPDATE);
-			
-			GetEventHead().SetType(SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_UPDATE_RESOURCE_RESP);
-			
-			SL_RPC_Seda_Event event = new SL_RPC_Seda_Event(GetEvent(), GetEventHead());
-
-			SL_RPC_Seda_Stage.Instance().PushEvent(event);
-		}
-			break;
+//		case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_UPDATE_RESOURCE_RESP:{
+//
+//			SL_RPC_SocketControlHandler.Instance().Destory(SL_RPC_ServerType.SL_RPC_SERVER_TYPE_UPDATE);
+//
+//			GetEventHead().SetType(SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_UPDATE_RESOURCE_RESP);
+//
+//			SL_RPC_Seda_Event event = new SL_RPC_Seda_Event(GetEvent(), GetEventHead());
+//
+//			SL_RPC_Seda_Stage.Instance().PushEvent(event);
+//		}
+//			break;
 			
 		default:
 			break;

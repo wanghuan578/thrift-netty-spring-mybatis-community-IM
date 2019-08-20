@@ -55,19 +55,19 @@ public class SL_RPC_LoginServerHandler {
 		}
 			break;
 		
-		case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_UPDATE_RESOURCE_RESP:{
-			
-			SL_RPC_SocketControlHandler.Instance().Destory(SL_RPC_ServerType.SL_RPC_SERVER_TYPE_LOGIN);
-			
-			SL_RPC_SocketControlHandler.Instance().SetState(SL_RPC_State.SL_RPC_SOCKETSTATE_NONE);
-			
-			GetEventHead().SetType(SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_UPDATE_RESOURCE_RESP);
-			
-			SL_RPC_Seda_Event event = new SL_RPC_Seda_Event(GetEvent(), GetEventHead());
-
-			SL_RPC_Seda_Stage.Instance().PushEvent(event);
-		}
-			break;
+//		case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_UPDATE_RESOURCE_RESP:{
+//
+//			SL_RPC_SocketControlHandler.Instance().Destory(SL_RPC_ServerType.SL_RPC_SERVER_TYPE_LOGIN);
+//
+//			SL_RPC_SocketControlHandler.Instance().SetState(SL_RPC_State.SL_RPC_SOCKETSTATE_NONE);
+//
+//			GetEventHead().SetType(SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_UPDATE_RESOURCE_RESP);
+//
+//			SL_RPC_Seda_Event event = new SL_RPC_Seda_Event(GetEvent(), GetEventHead());
+//
+//			SL_RPC_Seda_Stage.Instance().PushEvent(event);
+//		}
+//			break;
 			
 //		case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_LOGIN_RESP:{
 //			
@@ -103,17 +103,17 @@ public class SL_RPC_LoginServerHandler {
 //		}
 //			break;
 			
-		case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_GET_BALANCE_NOTIFY: {
-			
-			SL_RPC_SocketControlHandler.Instance().Destory(SL_RPC_ServerType.SL_RPC_SERVER_TYPE_LOGIN);
-			
-			GetEventHead().SetType(SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_GET_BALANCE_NOTIFY);
-			
-			SL_RPC_Seda_Event event = new SL_RPC_Seda_Event(GetEvent(), GetEventHead());
-
-			SL_RPC_Seda_Stage.Instance().PushEvent(event);
-		}
-			break;
+//		case SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_GET_BALANCE_NOTIFY: {
+//
+//			SL_RPC_SocketControlHandler.Instance().Destory(SL_RPC_ServerType.SL_RPC_SERVER_TYPE_LOGIN);
+//
+//			GetEventHead().SetType(SL_RPC_Seda_EventType.MT_RPC_SEDA_EVENT_GET_BALANCE_NOTIFY);
+//
+//			SL_RPC_Seda_Event event = new SL_RPC_Seda_Event(GetEvent(), GetEventHead());
+//
+//			SL_RPC_Seda_Stage.Instance().PushEvent(event);
+//		}
+//			break;
 			
 		default:{
 			
