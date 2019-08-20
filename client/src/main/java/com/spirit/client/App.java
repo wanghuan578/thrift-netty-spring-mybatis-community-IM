@@ -25,7 +25,13 @@ public class App
 			e.printStackTrace();
 		}
  
-
+        while(true) {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
         //Channel channel = client.getChannel();
 
 

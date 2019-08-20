@@ -129,6 +129,27 @@ public class ThriftBinaryProtocolDecoder extends ByteToMessageDecoder {
                 }
                 break;
 
+                case RpcEventType.MT_SERVICE_LIST_CHANGE_NOTIFY:
+                {
+                    TProtocol protocol = new SL_RPC_Thrift_BinaryProtocol(event, SL_RPC_CommHead.Size(), (event.Length() - SL_RPC_CommHead.Size()));
+                    ServiceListChangeNotify notify = new ServiceListChangeNotify();
+
+                    try
+                    {
+                        notify.read(protocol);
+                    }
+                    catch (TException e)
+                    {
+                        e.printStackTrace();
+                    }
+
+                    //System.out.println(JSON.toJSONString(notify));
+
+                    out.add(notify);
+
+                }
+                break;
+
             default:
             	break;
             }

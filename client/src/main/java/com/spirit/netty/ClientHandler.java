@@ -51,16 +51,16 @@ public class ClientHandler extends SimpleChannelInboundHandler{
     	}
     	else if (msg instanceof ClientLoginRes) {
     		ClientLoginRes loginResp = (ClientLoginRes) msg;
-    		System.out.println("loginResp: " + JSON.toJSONString(loginResp, true));
+    		System.out.println("ClientLoginRes: " + JSON.toJSONString(loginResp, true));
 
 
 			ServiceRegisterReq req = new ServiceRegisterReq();
 			ServiceAddr addr =  new ServiceAddr();
-			addr.ip = "127.0.0.1";
+			addr.ip = "localhost";
 			addr.port = 8080;
 			ServiceInfo info = new ServiceInfo();
 			info.service_name = "translate";
-			info.service_weight = 100;
+			info.service_weight = 99;
 			info.service_addr = addr;
 			req.service_info = info;
 
@@ -69,13 +69,21 @@ public class ClientHandler extends SimpleChannelInboundHandler{
     	}
 		else if (msg instanceof ServiceRegisterRes) {
 			ServiceRegisterRes res = (ServiceRegisterRes) msg;
-			System.out.println("loginResp: " + JSON.toJSONString(res, true));
+			System.out.println("ServiceRegisterRes: " + JSON.toJSONString(res, true));
 
 			ServiceListReq req = new ServiceListReq();
 			req.service_name = "translate";
 			ctx.write(req);
 			ctx.flush();
+		}else if (msg instanceof ServiceListChangeNotify) {
+			ServiceListChangeNotify notify = (ServiceListChangeNotify) msg;
+			System.out.println("ServiceListChangeNotify: " + JSON.toJSONString(notify, true));
+
+			ServiceListChangeRes req = new ServiceListChangeRes();
+			ctx.write(req);
+			ctx.flush();
 		}
+
 
 
     }

@@ -6,12 +6,8 @@ import com.spirit.thrift.socketserver.rpc.minicore.SL_RPC_ProtocolFactory;
 import com.spirit.thrift.socketserver.rpc.minicore.SL_RPC_Seda_EventType;
 
 
+import com.spirit.thrift.socketserver.rpc.thrift.*;
 
-import com.spirit.thrift.socketserver.rpc.thrift.ClientLoginRes;
-import com.spirit.thrift.socketserver.rpc.thrift.ClientPasswordLoginReq;
-
-import com.spirit.thrift.socketserver.rpc.thrift.ServiceListReq;
-import com.spirit.thrift.socketserver.rpc.thrift.ServiceRegisterReq;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
@@ -67,6 +63,17 @@ public class ThriftBinaryProtocolEncoder extends MessageToByteEncoder<Object> {
 			SL_RPC_ProtocolFactory<ServiceListReq> factory = new SL_RPC_ProtocolFactory<ServiceListReq>((ServiceListReq) msg, 1024, SL_RPC_CommHead.Size());
 
 			factory.GetBuilder().GetHead().SetType(RpcEventType.MT_SERVICE_LIST_REQ);
+
+			factory.GetBody().write(factory.GetProtocol());
+			int len = factory.GetBuilder().Serialize();
+			SL_RPC_CommHead head = factory.GetBuilder().GetHead();
+			System.out.println("msg len: " + len);
+			out.writeBytes(factory.GetBuilder().GetBuffer().GetBytes(), 0, len);
+		}
+		else if (msg instanceof ServiceListChangeRes) {
+			SL_RPC_ProtocolFactory<ServiceListChangeRes> factory = new SL_RPC_ProtocolFactory<ServiceListChangeRes>((ServiceListChangeRes) msg, 1024, SL_RPC_CommHead.Size());
+
+			factory.GetBuilder().GetHead().SetType(RpcEventType.MT_SERVICE_LIST_CHANGE_RES);
 
 			factory.GetBody().write(factory.GetProtocol());
 			int len = factory.GetBuilder().Serialize();
