@@ -3,7 +3,7 @@ package com.spirit.client;
 import com.spirit.netty.NettyClient;
 
 
-import io.netty.channel.Channel;
+
 
 /**
  * Hello world!

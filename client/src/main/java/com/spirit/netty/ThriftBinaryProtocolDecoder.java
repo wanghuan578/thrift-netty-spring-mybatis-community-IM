@@ -132,7 +132,7 @@ public class ThriftBinaryProtocolDecoder extends ByteToMessageDecoder {
                 case RpcEventType.MT_SERVICE_LIST_CHANGE_NOTIFY:
                 {
                     TProtocol protocol = new SL_RPC_Thrift_BinaryProtocol(event, SL_RPC_CommHead.Size(), (event.Length() - SL_RPC_CommHead.Size()));
-                    ServiceListChangeNotify notify = new ServiceListChangeNotify();
+                    ServiceListSyncNotify notify = new ServiceListSyncNotify();
 
                     try
                     {

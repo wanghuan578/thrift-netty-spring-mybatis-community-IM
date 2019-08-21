@@ -55,14 +55,14 @@ public class ClientHandler extends SimpleChannelInboundHandler{
 
 
 			ServiceRegisterReq req = new ServiceRegisterReq();
-			ServiceAddr addr =  new ServiceAddr();
-			addr.ip = "localhost";
+			AddressInfo addr =  new AddressInfo();
+			addr.ip = "127.0.0.1";
 			addr.port = 8080;
-			ServiceInfo info = new ServiceInfo();
-			info.service_name = "translate";
-			info.service_weight = 99;
-			info.service_addr = addr;
-			req.service_info = info;
+			ServiceRouteInfo info = new ServiceRouteInfo();
+			info.name = "translate";
+			info.weight = 99;
+			info.addr = addr;
+			req.route = info;
 
 			ctx.write(req);
 			ctx.flush();
@@ -75,11 +75,11 @@ public class ClientHandler extends SimpleChannelInboundHandler{
 			req.service_name = "translate";
 			ctx.write(req);
 			ctx.flush();
-		}else if (msg instanceof ServiceListChangeNotify) {
-			ServiceListChangeNotify notify = (ServiceListChangeNotify) msg;
+		}else if (msg instanceof ServiceListSyncNotify) {
+			ServiceListSyncNotify notify = (ServiceListSyncNotify) msg;
 			System.out.println("ServiceListChangeNotify: " + JSON.toJSONString(notify, true));
 
-			ServiceListChangeRes req = new ServiceListChangeRes();
+			ServiceListSyncRes req = new ServiceListSyncRes();
 			ctx.write(req);
 			ctx.flush();
 		}

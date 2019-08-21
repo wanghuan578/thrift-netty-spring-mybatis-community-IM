@@ -70,8 +70,8 @@ public class ThriftBinaryProtocolEncoder extends MessageToByteEncoder<Object> {
 			System.out.println("msg len: " + len);
 			out.writeBytes(factory.GetBuilder().GetBuffer().GetBytes(), 0, len);
 		}
-		else if (msg instanceof ServiceListChangeRes) {
-			SL_RPC_ProtocolFactory<ServiceListChangeRes> factory = new SL_RPC_ProtocolFactory<ServiceListChangeRes>((ServiceListChangeRes) msg, 1024, SL_RPC_CommHead.Size());
+		else if (msg instanceof ServiceListSyncRes) {
+			SL_RPC_ProtocolFactory<ServiceListSyncRes> factory = new SL_RPC_ProtocolFactory<ServiceListSyncRes>((ServiceListSyncRes) msg, 1024, SL_RPC_CommHead.Size());
 
 			factory.GetBuilder().GetHead().SetType(RpcEventType.MT_SERVICE_LIST_CHANGE_RES);
 
