@@ -13,6 +13,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
 @Sharable
 public class ClientHandler extends SimpleChannelInboundHandler{
     
+	private final String IP = "localhost";
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
@@ -48,7 +49,7 @@ public class ClientHandler extends SimpleChannelInboundHandler{
 
 			ServiceRegisterReq req = new ServiceRegisterReq();
 			AddressInfo addr =  new AddressInfo();
-			addr.ip = "127.0.0.1";
+			addr.ip = IP;
 			addr.port = 8080;
 			RouteInfo info = new RouteInfo();
 			info.name = "translate";
